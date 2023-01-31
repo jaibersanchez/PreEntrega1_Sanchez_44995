@@ -1,6 +1,6 @@
 
 import './App.css'; 
-import { CartWidget } from './CartWidget/CartWidget';
+import { ItemListContainer } from './ItemListContainer/ItemListContainer'
 
 // Components
 import {Navbar} from './Navbar/Navbar'
@@ -9,7 +9,7 @@ export const App = () => {
   return (
    <>
     <Navbar nombre={"Frida Beauty Shop"}/>
-    <CartWidget cantCarrito={5}/>
+    <ItemListContainer greeting={5}/>
    </>
   )
 }
