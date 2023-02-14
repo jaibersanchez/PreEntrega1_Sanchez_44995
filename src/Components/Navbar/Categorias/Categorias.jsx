@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 export const Categorias = () => {
     return (
         <li className="nav-item dropdown">
-          <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a className="nav-link dropdown-toggle" href="/#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             <button className="btn btn-dark">Categorías</button>
           </a>
           <ul className="dropdown-menu">
