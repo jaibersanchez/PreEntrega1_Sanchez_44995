@@ -1,3 +1,36 @@
-.divInicial {
-    background-color: antiquewhite;
+
+.cardProducto {
+    width: 20rem;
+    margin: 4px;
+    background-color: hsl(0, 0, 9);
+}
+
+.cardProductos {
+    margin: 4px;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardBody {
+    background-color: white;
+    margin-bottom: 3px;
+    text-align: center;
+}
+
+img {
+    margin-top: 3px;
+    width: 334px;
+    height: 399px;
+    padding: 1em;
+    max-width: 100%; 
+}
+
+.itemDetail {
+    max-width: 760px;
+    margin-top: 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
 }
